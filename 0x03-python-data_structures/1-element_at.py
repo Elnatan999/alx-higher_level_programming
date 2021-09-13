@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
-   my_list = my_list[idx]
-   i = len(my_list)
-   
-
-   if idx < i:
-      print("{:d}".format(my_list))
+   if idx  > 0:
+      if idx <= len(my_list):
+         return (my_list[idx])
+      else:
+         return ("None")
    else:
-      print("wooooow")
-element_at(my_list, idx)
+      return ("None")
