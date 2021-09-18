@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m py_compile "$PYFILE" > main.pyc
+python -m py_compile "$PYFILE" > "$PYFILEc" | touch $PYFILEc
