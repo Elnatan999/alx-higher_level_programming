@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+def main():
+   import sys
+   sum = 0
+   for num in *args:
+      sum = int(num) + sum
+      print("{0}".format(sys.argv[sum]))
+main()
