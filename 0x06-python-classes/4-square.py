@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # 4-square.py
 """Define a Square."""
+
+
 class Square:
     """Represent a square."""
     def __init__(self, __size=0):
