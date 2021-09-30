@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+def add_tuple(tuple_a, tuple_b):
+    x = len(tuple_a)
+    y = len(tuple_b)
+    if x < 2 or y <= 1:
+        tuple_a = tuple_a.append('0')
+        tuple_b = tuple_b.append('0')
+    
