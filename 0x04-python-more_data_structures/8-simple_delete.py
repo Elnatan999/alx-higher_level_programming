@@ -1,4 +1,4 @@
-#!/usr/bin/python.py
+#!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
     if kry in a_dictionary:
         del a_dictionary[key]
