@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix = [[]]):
-    return ([[col * col for col in row] for row in matrix])
+def square_matrix_simple(matrix=[]):
+    if matrix is None:
+        return
+    new_matrix = [[n * n for n in a] for a in matrix]
+    return new_matrix
