@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+# 0-square_matrix_simple.py
+
+
 def square_matrix_simple(matrix=[]):
-    if matrix is None:
-        return
-    new_matrix = [[n * n for n in a] for a in matrix]
-    return new_matrix
+    """Compute the square value of all integers of a matrix."""
+    return ([[col * col for col in row] for row in matrix])
