@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# 5-number_keys.py
+# 3-common_elements.py
 
 
-def number_keys(a_dictionary):
-    """Return the number of keys in a dictionary."""
-    return (len(a_dictionary))
+def common_elements(set_1, set_2):
+    """Return a set of common elements in two sets."""
+    return (set_1 & set_2)
