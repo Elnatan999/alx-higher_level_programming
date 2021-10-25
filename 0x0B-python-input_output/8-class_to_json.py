@@ -1,9 +1,7 @@
-#!/usr/bin/pythhon3
-#8-class_to_json.py
-"""for task 8
-"""
+#!/usr/bin/python3
+'''task 8 module'''
 
 
 def class_to_json(obj):
-    """returns json representation"""
-    return obj.__dict__
+    '''returns dict discription with simple data structure'''
+    return (obj.__dict__)
